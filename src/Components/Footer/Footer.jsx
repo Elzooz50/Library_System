@@ -18,7 +18,6 @@ export default function Footer() {
             Lorem ipsum is a dummy or placeholder text. Commonly used in
             graphic, print, publishing, and web development for mockups and
             layouts that do not yet have content.
-            <FontAwesomeIcon icon="fa-solid fa-house" />
           </p>
           <div className="social-links">
             <img src="src\assets\twitter_icon.svg" className="social-icon" />
