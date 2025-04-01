@@ -4,7 +4,7 @@ import './Header.css';
 const Header = () => {
   return (
     <header className="header container">
-      <div className="logo">
+      <div className="logo flex">
         <img src="images/Logo.png" alt="Logo" className="logo-image" />
         <img src="images/Text.png" alt="Text" className="text-image" />
       </div>
@@ -14,7 +14,7 @@ const Header = () => {
           <li><a href="#">Resources</a></li>
           <li><a href="#">Books</a></li>
           <li><a href="#">About</a></li>
-          <i class="fa-solid fa-bars"></i>
+          {/* <i class="fa-solid fa-bars"></i> */}
         </ul>
       </nav>
       <div className="user-profile">

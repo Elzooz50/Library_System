@@ -60,6 +60,10 @@ body {
     height: 25px;
 }
 
+.logo {
+    gap: 10px;
+}
+
 @media (max-width: 768px) {
     .nav-links {
         display: none;
