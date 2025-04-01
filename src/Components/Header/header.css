@@ -43,6 +43,10 @@ body {
     display: none;
 }
 
+.menu-icon i {
+    font-size: 30px;
+}
+
 .menu-icon img {
     width: 30px;
 }
@@ -53,11 +57,15 @@ body {
     font-size: 14px;
 }
 
+.user-profile {
+    gap: 10px;
+}
+
 .logo-image {
     width: 60px;
 }
 .text-image {
-    height: 25px;
+    height: 15px;
 }
 
 .logo {
