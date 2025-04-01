@@ -8,13 +8,13 @@ import Footer from './Components/Footer/Footer';
 function App() {
     return (
         <BrowserRouter>
-            <Header />
+            <Header className="container"/>
             <Routes>
-                <Route path="/" element={<><h1>Home</h1></>} />
-                <Route path="/about" element={<><h1>About</h1></>} />
+                <Route path="/" element={<><h1 className='container'>Home</h1></>} />
+                <Route path="/about" element={<><h1 >About</h1></>} />
                 <Route path="*" element={<><h1>404 Not Found</h1></>} />
             </Routes>
-            <Footer />
+            <Footer className="container"/>
         </BrowserRouter>
     );
 }
