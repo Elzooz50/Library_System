@@ -4,6 +4,7 @@ import { Route, Routes, BrowserRouter } from 'react-router-dom';
 import './index.css';
 import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
+import SignupPage from './Sign-Up/Sign_Up';
 
 function App() {
     return (
@@ -11,6 +12,7 @@ function App() {
             <Header className="container"/>
             <Routes>
                 <Route path="/" element={<><h1 className='container'>Home</h1></>} />
+                <Route path='/sign_up' element={<SignupPage/>}/>
                 <Route path="/about" element={<><h1 >About</h1></>} />
                 <Route path="*" element={<><h1>404 Not Found</h1></>} />
             </Routes>
