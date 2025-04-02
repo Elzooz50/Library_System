@@ -6,6 +6,7 @@ import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
 import SignupPage from './Sign-Up/Sign_Up';
 import LoginPage from './Login/Login';
+import PageNotFound from './404/404';
 
 function App() {
     return (
@@ -16,7 +17,7 @@ function App() {
                 <Route path='/sign_up' element={<SignupPage/>}/>
                 <Route path='/login' element={<LoginPage/>}/>
                 <Route path="/about" element={<><h1 >About</h1></>} />
-                <Route path="*" element={<><h1>404 Not Found</h1></>} />
+                <Route path="*" element={<PageNotFound/>} />
             </Routes>
             <Footer className="container"/>
         </BrowserRouter>
