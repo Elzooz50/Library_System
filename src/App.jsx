@@ -7,6 +7,7 @@ import Footer from './Components/Footer/Footer';
 import SignupPage from './Sign-Up/Sign_Up';
 import LoginPage from './Login/Login';
 import PageNotFound from './404/404';
+import UserProfile from './User_Profile/User_Profile';
 
 function App() {
     return (
@@ -17,6 +18,7 @@ function App() {
                 <Route path='/sign_up' element={<SignupPage/>}/>
                 <Route path='/login' element={<LoginPage/>}/>
                 <Route path="/about" element={<><h1 >About</h1></>} />
+                <Route path="/userprofile" element={<UserProfile/>} />
                 <Route path="*" element={<PageNotFound/>} />
             </Routes>
             <Footer className="container"/>
