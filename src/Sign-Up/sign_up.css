@@ -17,11 +17,11 @@
 
 .illustration {
     max-width: 100%;
-    width: 750px;
+    width: 650px;
 }
 
 .form-section {
-    flex: 1;
+    flex-grow: 1;
     max-width: 400px;
     padding: 20px;
     box-sizing: border-box;
@@ -66,6 +66,11 @@ input {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.create-account-btn:active, .google-btn:active {
+    scale: 0.95;
+    transition: 0.3s;
 }
 
 .google-btn {

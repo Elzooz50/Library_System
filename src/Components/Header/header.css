@@ -123,6 +123,7 @@ header .fixed ul.modal li a:hover {
 .icon-close:hover {
     scale: 1.25;
     rotate: 180deg;
+    transition: 0.3s;
 }
 
 header .fixed ul.modal li:first-child {

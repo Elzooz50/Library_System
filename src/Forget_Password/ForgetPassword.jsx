@@ -3,14 +3,14 @@ import './forgetPassword.css';
 
 const ForgetPassword = () => {
     return (
-        <div className="container">
+        <div className="flex forget-container container">
         <div className="form-container">
             <h1>Forgot Password</h1>
             <p>Enter your email address to reset your password</p>
             <label>Email</label>
-            <input type="email" placeholder="Enter your email" />
+            <input type="email" placeholder="Enter your email" required/>
             <p>We'll send you a reset link</p>
-            <div className="button-container">
+            <div className="button-container flex">
             <button className="cancel-button">Cancel</button>
             <button className="reset-button">Reset Password</button>
             </div>
