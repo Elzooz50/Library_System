@@ -8,6 +8,7 @@ import SignupPage from './Sign-Up/Sign_Up';
 import ForgetPassword from './Forget_Password/ForgetPassword';
 import UserProfile from './User_Profile/User_Profile'
 import PageNotFound from './404/404'
+import Home from './Home/Home';
 
 function App() {
     return (
@@ -20,6 +21,7 @@ function App() {
                 <Route path="/userprofile" element={<UserProfile/>} />
                 <Route path="/forget_password" element={<ForgetPassword/>} />
                 <Route path="*" element={<PageNotFound/>} />
+                <Route path="/home" element={<Home/>} />
             </Routes>
             <Footer className="containerr"/>
         </BrowserRouter>
