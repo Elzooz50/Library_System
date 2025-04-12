@@ -8,7 +8,12 @@ import SignupPage from './Sign-Up/Sign_Up';
 import ForgetPassword from './Forget_Password/ForgetPassword';
 import UserProfile from './User_Profile/User_Profile'
 import PageNotFound from './404/404'
+<<<<<<< HEAD
 import Home from './Home/Home';
+=======
+import Browse from './Browse/Browse';
+import BookDetails from './Book_Details/BookDetails';
+>>>>>>> c53f70a5f3fbb881e9c05f624e7201a84f2f5237
 
 function App() {
     return (
@@ -19,6 +24,8 @@ function App() {
                 <Route path='/sign_up' element={<SignupPage/>}/>
                 <Route path="/about" element={<><h1 >About</h1></>} />
                 <Route path="/userprofile" element={<UserProfile/>} />
+                <Route path="/browse" element={<Browse/>} />
+                <Route path="/book_details" element={<BookDetails/>} />
                 <Route path="/forget_password" element={<ForgetPassword/>} />
                 <Route path="*" element={<PageNotFound/>} />
                 <Route path="/home" element={<Home/>} />
