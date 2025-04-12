@@ -8,6 +8,8 @@ import SignupPage from './Sign-Up/Sign_Up';
 import ForgetPassword from './Forget_Password/ForgetPassword';
 import UserProfile from './User_Profile/User_Profile'
 import PageNotFound from './404/404'
+import Browse from './Browse/Browse';
+import BookDetails from './Book_Details/BookDetails';
 
 function App() {
     return (
@@ -18,6 +20,8 @@ function App() {
                 <Route path='/sign_up' element={<SignupPage/>}/>
                 <Route path="/about" element={<><h1 >About</h1></>} />
                 <Route path="/userprofile" element={<UserProfile/>} />
+                <Route path="/browse" element={<Browse/>} />
+                <Route path="/book_details" element={<BookDetails/>} />
                 <Route path="/forget_password" element={<ForgetPassword/>} />
                 <Route path="*" element={<PageNotFound/>} />
             </Routes>

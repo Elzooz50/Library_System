@@ -1,0 +1,140 @@
+.book-details-page {
+    padding: 50px;
+    font-family: Arial, sans-serif;
+    background-color: #e0dcdc;
+}
+
+.left-side {
+    width: 40%;
+    padding-left: 30px;
+}
+
+.book-main {
+    display: flex;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 7px 1px rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+
+.book-cover {
+    width: 70%;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.book-info {
+    flex: 1;
+    margin-bottom: 30px;
+}
+
+.book-info .rate {
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+
+.book-info h1 {
+}
+
+.info-col {
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.Golden {
+    color: #525252;
+    font-weight: bold;
+}
+
+.book-description {
+    padding-bottom: 10px;
+    margin: 10px 0;
+    line-height: 1.2rem;
+}
+
+.book-meta p {
+    margin: 5px 0;
+}
+
+.book-actions {
+    margin-top: 20px;
+    width: fit-content;
+}
+
+.save-button, .share-button {
+    padding: 10px 15px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.save-button {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.share-button {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+.book-extra {
+    display: flex;
+    gap: 20px;
+}
+
+.book-details, .related-books {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.book-details h2, .related-books h2 {
+    margin-top: 0;
+}
+
+.book-details ul {
+    list-style: none;
+    padding: 0;
+}
+
+.book-details li {
+    margin-bottom: 10px;
+}
+
+.book-tags {
+    margin-top: 10px;
+}
+
+.tag {
+    display: inline-block;
+    background-color: #e9ecef;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+.related-book-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.related-book-card img {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.more-button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
